@@ -1,4 +1,4 @@
-import { ListTodo, CheckCircle } from 'lucide-react';
+import { CheckCircle, Circle } from 'lucide-react';
 
 interface HeaderProps {
   totalCount: number;
@@ -15,7 +15,7 @@ export default function Header({ totalCount, activeCount, completedCount }: Head
       </div>
 
       <h1 className="text-3xl sm:text-4xl font-bold bg-gradient-to-r from-white via-indigo-200 to-purple-200 bg-clip-text text-transparent mb-2">
-        TODO TPDP
+        AAA TTT
       </h1>
 
       <p className="text-slate-400 text-sm">
